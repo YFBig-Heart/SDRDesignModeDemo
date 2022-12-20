@@ -16,6 +16,8 @@
 		64653245294C56BB006ED52B /* SDRDecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64653244294C56BB006ED52B /* SDRDecoratorPattern.swift */; };
 		64653247294C5907006ED52B /* SDRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64653246294C5907006ED52B /* SDRViewController.swift */; };
 		6465324A294C6D64006ED52B /* SDRBridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64653249294C6D64006ED52B /* SDRBridgePattern.swift */; };
+		6465327F2950A778006ED52B /* SDRFlyweightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6465327E2950A778006ED52B /* SDRFlyweightPattern.swift */; };
+		6465328E29518B35006ED52B /* SDRCompositePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6465328D29518B35006ED52B /* SDRCompositePattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		64653244294C56BB006ED52B /* SDRDecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRDecoratorPattern.swift; sourceTree = "<group>"; };
 		64653246294C5907006ED52B /* SDRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRViewController.swift; sourceTree = "<group>"; };
 		64653249294C6D64006ED52B /* SDRBridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRBridgePattern.swift; sourceTree = "<group>"; };
+		6465327E2950A778006ED52B /* SDRFlyweightPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDRFlyweightPattern.swift; sourceTree = "<group>"; };
+		6465328D29518B35006ED52B /* SDRCompositePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDRCompositePattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				641AA3D8293F21FE00BA0C28 /* AppDelegate.h */,
 				641AA3D9293F21FE00BA0C28 /* AppDelegate.m */,
 				64653246294C5907006ED52B /* SDRViewController.swift */,
+				6465328029518856006ED52B /* 享元模式 */,
+				6465327D2950A73B006ED52B /* 组合模式 */,
 				64653248294C622D006ED52B /* 桥接模式 */,
 				64653230294C45EE006ED52B /* 装饰器模式 */,
 				6465322D294C4146006ED52B /* SDRComponent.h */,
@@ -96,6 +102,22 @@
 				64653249294C6D64006ED52B /* SDRBridgePattern.swift */,
 			);
 			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		6465327D2950A73B006ED52B /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				6465328D29518B35006ED52B /* SDRCompositePattern.swift */,
+			);
+			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		6465328029518856006ED52B /* 享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				6465327E2950A778006ED52B /* SDRFlyweightPattern.swift */,
+			);
+			path = "享元模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +196,9 @@
 				64653247294C5907006ED52B /* SDRViewController.swift in Sources */,
 				6465322F294C4146006ED52B /* SDRComponent.m in Sources */,
 				641AA3D2293F21C600BA0C28 /* main.m in Sources */,
+				6465327F2950A778006ED52B /* SDRFlyweightPattern.swift in Sources */,
 				641AA3DA293F21FE00BA0C28 /* AppDelegate.m in Sources */,
+				6465328E29518B35006ED52B /* SDRCompositePattern.swift in Sources */,
 				6465324A294C6D64006ED52B /* SDRBridgePattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
